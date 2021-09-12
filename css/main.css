@@ -3,6 +3,7 @@ body {
   font-weight: 600;
   line-height: 1.2;
   font-size: 16px;
+  color: #D0D0D0;
 }
 
 .container {
@@ -25,3 +26,21 @@ body {
   width: 100%;
 }
 
+.header__inner {
+  padding:30px 0;
+  background-color: #3C3C3C;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu__link {
+  font-size: 32px;
+  text-transform: uppercase;
+}
