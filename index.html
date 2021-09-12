@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="header">
         <div class="container container--main">
@@ -35,5 +37,151 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <div class="container container--main">
+            <div class="main__inner">
+                <aside class="aside">
+                    <div class="container container--aside">
+                        <img class="main__img" src="" alt="photo of user">
+                        <section class="contacts">
+                            <h2 class="title title--aside">contact</h2>
+                            <div class="contacts__item">
+                                <h3 class="contacts__subtitle">phone</h3>
+                                <a class="contact__link" href="tel:+375293688679">+375293688679</a>
+                            </div>
+                            <div class="contacts__item">
+                                <h3 class="contacts__subtitle">e-mail</h3>
+                                <a class="contact__link" href="mailto:kopteloy@gmail.com">kopteloy@gmail.com</a>
+                            </div>
+                            <div class="contacts__item">
+                                <h3 class="contacts__subtitle">telegram</h3>
+                                <a class="contact__link" href="https://telegram.me/kirill111198" target="_blank">kirill111198</a>
+                            </div>
+                            <div class="contacts__item">
+                                <h3 class="contacts__subtitle">vk</h3>
+                                <a class="contact__link" href="https://vk.com/kirill11111998" target="_blank">Кирилл Коптелов</a>
+                            </div>
+                            <div class="contacts__item">
+                                <h3 class="contacts__subtitle">linkedin</h3>
+                                <a class="contact__link" href="https://www.linkedin.com/in/%D0%BA%D0%B8%D1%80%D0%B8%D0%BB%D0%BB-%D0%BA%D0%BE%D0%BF%D1%82%D0%B5%D0%BB%D0%BE%D0%B2-0b5174204/" target="_blank">
+                                    Кирилл Коптелов
+                                </a>
+                            </div>
+                        </section>
+                        <section class="languages">
+                            <h2 class="title title--aside">
+                                languages
+                            </h2>
+                            <ul class="languages__list">
+                                <li class="languages__item">English(pre-intermediate)</li>
+                                <li class="languages__item">Russian(Native)</li>
+                            </ul>
+                        </section>
+                    </div>
+                </aside>
+                <div class="content">
+                    <div class="container container--content">
+                        <section class="person">
+                            <h1 class="person__title">Kirill Koptelov</h1>
+                            <p class="person__work">junior front-end developer</p>
+                        </section>
+                        <section class="aboute">
+                            <h2 class="title title--content">aboute</h2>
+                            <p class="aboute__text">
+                                I love to learn something new and try to do it quite fast. Enjoy solving both puzzles and working tasks. I hope I have a sense of humor. My main goal right now is to become a good specialist in IT sphere.
+                            </p>
+                        </section>
+                        <section class="skills">
+                            <h2 class="title title--content">skills</h2>
+                            <ul class="skills__list">
+                                <li class="skills__item">
+                                    html/css
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    bem methodology
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    less/scss/sass
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    boostrap
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    adaptive web design
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    gulp
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    javascript
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    git
+                                    <span class="skills__line"></span>
+                                </li>
+                                <li class="skills__item">
+                                    photoshop/figma
+                                    <span class="skills__line"></span>
+                                </li>
+                            </ul>
+                        </section>
+                        <section class="code">
+                            <h2 class="title title--content"></h2>
+                                <p class="code__task">
+                                    <span>Array Deep Count</span>.Array.prototype.length will give you the number of top-level elements in an array.
+                                </p>
+                                <p class="code__task">
+                                    Your task is to create a function deepCount that returns the number of ALL elements within an array, including any within inner-level arrays.
+                                </p>
+                                <pre class="code__example">
+                                    <code>    
+                                        function deepCount(a) {
+                                            return a.reduce(function deeper(count,arr){
+                                                if(Array.isArray(arr)) {
+                                                return count + deeper(arr);               
+                                            } 
+                                            else {
+                                                return count;
+                                            }
+                                        }, a.length)
+                                    }
+                                </code>
+                            </pre>
+                        </section>
+                        <section class="courses">
+                            <h2 class="title title--content">Courses</h2>
+                            <ul class="courses__list">
+                                <li class="courses__item"></li>
+                            </ul>
+                        </section>
+                        <section class="education">
+                            <h2 class="title title--content">education</h2>
+                            <p class="education__text">
+                                <span class="education__place">Francisk Skorina Gomel State University</span>, Higher education. Faculty of Mathematics and Programming Technologies, mathematician-programmer
+                            </p>
+                        </section>
+                        <section class="qualities">
+                            <h2 class="title title--content">Personal qualities</h2>
+                            <ol class="qualities__list">
+                                <li class="qualities__item">Stress-resistant</li>
+                                <li class="qualities__item">Hardworking</li>
+                                <li class="qualities__item">Responsible</li>
+                                <li class="qualities__item">Sociable</li>
+                                <li class="qualities__item">Team worker</li>
+                            </ol>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
+
 </html>
