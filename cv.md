@@ -1,5 +1,5 @@
 # Kirill Kopteloy
-## Contacts
+### Contacts
 phone: :+375 29 3688679  
 E-mail: kopteloy@gmail.com  
 Telegram: @kirill111198  
@@ -8,14 +8,14 @@ VK: [Kirill Kopteloy](https://vk.com/kirill11111998)
 
 ---
 
-## Aboute me
+### Aboute me
 I love to learn something new and try to do it quite fast. Enjoy solving both
 puzzles and working tasks. I hope I have a sense of humor. My main goal
 right now is to become a good specialist in IT sphere.
 
 ---
 
-## Skills
+### Skills
 - Html, Css
 - BEM methodology 
 - LESS, SASS, SCSS
@@ -28,7 +28,7 @@ right now is to become a good specialist in IT sphere.
 
 ---
 
-## Code example
+### Code example
 **Array Deep Count**. Array.prototype.length will give you the number of top-level elements in an array.
 
 Your task is to create a function deepCount that returns the number of ALL elements within an array, including any within inner-level arrays.
@@ -47,19 +47,19 @@ function deepCount(a) {
 
 ---
 
-## Courses
+### Courses
 **Web design (Html, Css, Preprocessors, Gulp)**
 
 ---
 
-## EDUCATION
+### EDUCATION
 **Francisk Skorina Gomel State University**, Higher
 education. Faculty of Mathematics and Programming Technologies,
 mathematician-programmer
 
 ---
 
-## Pesonal qualities
+### Pesonal qualities
 1. Stress-resistant
 2. Hardworking
 3. Responsible
@@ -68,6 +68,6 @@ mathematician-programmer
 
 ---
 
-## Languages
+### Languages
 * English(pre-intermediate)
 * Russian(Native)
