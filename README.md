@@ -1,1 +1,0 @@
-https://drakooosha.github.io/rsschool-cv/cv
