@@ -28,12 +28,9 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+pre {
   margin: 0;
-}
-
-ul[class],ol[class] {
-  list-style: none;
 }
 
 img {
