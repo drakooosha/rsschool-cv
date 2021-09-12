@@ -1,0 +1,27 @@
+body {
+  font-family: 'Crimson', sans-serif;
+  font-weight: 600;
+  line-height: 1.2;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container--content {
+  max-width: 280px;
+  width: 100%;
+}
+
+.container--aside {
+  max-width: 225px;
+  width: 100%;
+}
+
+.container--main {
+  max-width: 1220px;
+  width: 100%;
+}
+
