@@ -257,6 +257,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 10px;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,6 +288,8 @@ body {
 .myworks__technologies {
   opacity: 1;
 }
+
+.m
 
 .code__task {
   margin-bottom: 20px;
