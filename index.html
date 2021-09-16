@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,6 +17,9 @@
         <div class="container container--main">
             <div class="header__inner">
                 <nav class="menu">
+                    <button class="menu__btn" type="button">
+                        <span></span>
+                    </button>
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a class="menu__link" href="#aboute">me</a>
@@ -151,6 +155,23 @@
                                 </li>
                             </ul>
                         </section>
+                        <section class="myworks content__section">
+                            <h2 class="title title--content">my works</h2>
+                            <ul class="myworks__list">
+                                <li class="myworks__item">
+                                    <a class="myworks__link myworks__link--serfing " href="https://serfingpage.000webhostapp.com/">
+                                        <h3 class="myworks__prtitle">Serfing</h3>
+                                        <p class="myworks__technologies">Html,Css</p>
+                                    </a>
+                                </li>
+                                <li class="myworks__item">
+                                    <a class="myworks__link myworks__link--site" href="https://drakooosha.github.io/news-site/">
+                                        <h3 class="myworks__prtitle">News site</h3>
+                                        <p class="myworks__technologies">Html,Css,Js,Firebase</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
                         <section class="code content__section">
                             <h2 class="title title--content" id="code">Code example</h2>
                             <p class="code__task">
@@ -226,6 +247,9 @@
             </div>
         </div>
     </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

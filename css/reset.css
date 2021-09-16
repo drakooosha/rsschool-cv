@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -11,6 +12,7 @@ html {
 ul,
 ol {
   padding: 0;
+  list-style-position: inside;
 }
 
 body,
